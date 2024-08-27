@@ -13,9 +13,6 @@ export default {
         "./vendor/wireui/wireui/src/WireUi/**/*.php",
         "./vendor/wireui/wireui/src/Components/**/*.php",
     ],
-    presets: [
-            require("./vendor/wireui/wireui/tailwind.config.js")
-    ],
     darkMode: 'class',
     theme: {
         extend: {
