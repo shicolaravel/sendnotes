@@ -13,6 +13,8 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <wireui:scripts />
+
     </head>
     <body class="font-sans antialiased" x-data="{darkMode: $persist(false)}" :class="{'dark': darkMode === true }">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
